@@ -1,0 +1,60 @@
+
+
+
+.bigBox {
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.box {
+    display:flex;
+}
+.header {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.topList{
+    color:lightslategray;
+    justify-content: space-around;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.smallBox{
+    background-color: lightskyblue;
+    flex-direction: column;
+    
+}
+
+.dogBox{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dogText {
+    flex-direction: column;
+}
+
+
+.dimensionsDog{
+    width: 400px;
+    height: auto;
+}
+
+.signButton {
+
+}
+
+.bottomSign {
+
+}
