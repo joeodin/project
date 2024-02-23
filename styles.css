@@ -13,6 +13,7 @@
 .header {
     justify-content: space-around;
     align-items: center;
+    gap:425px;
     font-size: 30px;
 }
 
@@ -33,12 +34,12 @@ a {
 .smallBox{
     background-color: lightskyblue;
     flex-direction: column;
-    
 }
 
 .dogBox{
     align-items: center;
     justify-content: space-around;
+    margin: 0 200px 0 200px;
 }
 
 .dogText {
@@ -47,12 +48,16 @@ a {
 
 
 .dimensionsDog{
-    width: 400px;
-    height: auto;
+    flex: 0 2 100px;
 }
 
 .signButton {
-
+    padding: 10px;
+    border-radius: 555px;
+    background-color: red;
+    color: purple;
+    font-weight:bolder;
+    width: fit-content;
 }
 
 .bottomSign {
