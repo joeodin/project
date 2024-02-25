@@ -1,65 +1,56 @@
 
 
-
-.bigBox {
+body {
     display:flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0;
+
 }
 
-.box {
-    display:flex;
-}
 .header {
-    justify-content: space-around;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    gap:425px;
-    font-size: 30px;
+    padding:0px 64px 81px 64px;
+    background-color: lightgreen;
 }
 
-ul {
+.topLinks {
     list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    gap:40px;
 }
+.dogBox {
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+
+    padding:0px 64px 0px 64px;
+    background-color: lightgreen;
+
+    color: black;
+    font-size: 24px;
+}
+
+.dogButt {
+    padding: 10px 30px 10px 30px;
+    color:white;
+    font-weight: bolder;
+    background-color: lightpink;
+    border-radius: 300px;
+}
+.imgDog {
+    display: flex;
+}
+
 a {
     text-decoration: none;
+    color:black;
+    
 }
 
-.topList{
-    color:lightslategray;
-    justify-content: space-around;
-    font-size: 20px;
-    gap: 20px;
-}
-
-.smallBox{
-    background-color: lightskyblue;
-    flex-direction: column;
-}
-
-.dogBox{
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 200px 0 200px;
-}
-
-.dogText {
-    flex-direction: column;
-}
-
-
-.dimensionsDog{
-    flex: 0 2 100px;
-}
-
-.signButton {
-    padding: 10px;
-    border-radius: 555px;
-    background-color: red;
-    color: purple;
-    font-weight:bolder;
-    width: fit-content;
-}
-
-.bottomSign {
-
+p {
+    color: gray;
+    font-size: 24px;
 }
